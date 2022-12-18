@@ -7,6 +7,8 @@ Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "templateweb.frontend", "Tem
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "templateweb.api", "templateweb.api\templateweb.api.csproj", "{96F78FB7-FF5C-473F-8742-A046161340AA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "templateweb.repository", "templateweb.repository\templateweb.repository.csproj", "{2B2BE660-9BFF-4727-A617-8396D8DC91BD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,6 +25,10 @@ Global
 		{96F78FB7-FF5C-473F-8742-A046161340AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{96F78FB7-FF5C-473F-8742-A046161340AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{96F78FB7-FF5C-473F-8742-A046161340AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B2BE660-9BFF-4727-A617-8396D8DC91BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B2BE660-9BFF-4727-A617-8396D8DC91BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B2BE660-9BFF-4727-A617-8396D8DC91BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B2BE660-9BFF-4727-A617-8396D8DC91BD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
