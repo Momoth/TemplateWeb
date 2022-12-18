@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32630.192
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "templateweb.frontend", "TemplateWeb.FrontEnd\templateweb.frontend.esproj", "{E10DCDA5-5463-4C7A-99D8-6B2B33C6F2FB}"
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "TemplateWeb.FrontEnd", "TemplateWeb.FrontEnd\TemplateWeb.FrontEnd.esproj", "{E10DCDA5-5463-4C7A-99D8-6B2B33C6F2FB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "templateweb.api", "templateweb.api\templateweb.api.csproj", "{96F78FB7-FF5C-473F-8742-A046161340AA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TemplateWeb.Api", "templateweb.api\TemplateWeb.Api.csproj", "{96F78FB7-FF5C-473F-8742-A046161340AA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "templateweb.repository", "templateweb.repository\templateweb.repository.csproj", "{2B2BE660-9BFF-4727-A617-8396D8DC91BD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TemplateWeb.Repository", "templateweb.repository\TemplateWeb.Repository.csproj", "{2B2BE660-9BFF-4727-A617-8396D8DC91BD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemplateWeb.Repository.Abstraction", "TemplateWeb.Repository.Abstraction\TemplateWeb.Repository.Abstraction.csproj", "{695A84B0-C887-48BB-8605-8ECD81906E4F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,6 +31,10 @@ Global
 		{2B2BE660-9BFF-4727-A617-8396D8DC91BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2B2BE660-9BFF-4727-A617-8396D8DC91BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2B2BE660-9BFF-4727-A617-8396D8DC91BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{695A84B0-C887-48BB-8605-8ECD81906E4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{695A84B0-C887-48BB-8605-8ECD81906E4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{695A84B0-C887-48BB-8605-8ECD81906E4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{695A84B0-C887-48BB-8605-8ECD81906E4F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
